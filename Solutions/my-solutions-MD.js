@@ -1,8 +1,8 @@
-// identity function.
+// 1. identity function.
 
 const identity = x => x;
 
-// subb function.
+// 2 .subb function.
 
 const subb = (a, b) =>{
     // Check whether arguments are of type number.
@@ -12,5 +12,15 @@ const subb = (a, b) =>{
         // If args are of type number then perform calculation
     } else {
         return a - b;
+    }
+};
+
+// 3. mulb function.
+
+const mulb = (a, b) => {
+    if(typeof a === 'number' && typeof b === 'number') {
+        return a * b;
+    } else {
+        // do nothing.
     }
 };
